@@ -1,0 +1,76 @@
+body {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.center-box {
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 6rem;
+  border-radius: 3.125rem; /* 50px */
+  height: auto; /* Adjust height as needed */
+  max-height: 80vh; /* Example to limit height */
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo, .additional-image {
+  margin-right: 1rem;
+  width: 100%; /* Make the image take the full width of the parent */
+  height: auto; /* Maintain the aspect ratio */
+  object-fit: contain; /* Ensure the image fits within the container without being cropped */
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  padding: 1rem; /* Adjust padding as needed */
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 6.875rem; /* 110px */
+}
+.signup-form h2 {
+  margin: 0; /* Adjust the padding value as needed */
+}
+
+
+.signup-form label,
+.signup-form input {
+  width: 14.625rem; /* 250px */
+  padding: 0.26rem;
+  border-radius: 0.5rem;
+}
+
+.signup-button {
+  margin-top: 0.625rem; /* 10px */
+  background-color: blue;
+  color: white;
+  padding: 0.625rem; /* 10px */
+  border: none;
+  border-radius: 1.25rem; /* 20px */
+  cursor: pointer;
+}
+
+.side-image {
+  width: 50%; /* Make the image take the full width of the parent */
+  height: auto; /* Make the image take the full height of the parent */
+  object-fit: contain; /* Ensure the image fits within the container without being cropped */
+}
+
