@@ -1,8 +1,9 @@
 import React from 'react';
 import './Signup.css';
 
-const App = () => {
+const Signup = () => {
   return (
+    <div className="signup">
     <div className="center-box">
       <div className="logo-container">
         <img src="logo.png" alt="Logo" className="logo" />
@@ -27,7 +28,8 @@ const App = () => {
         <img src="signup.png" alt="Image" className="side-image" />
       </div>
     </div>
+    </div>
   );
 };
 
-export default App;
+export default Signup;

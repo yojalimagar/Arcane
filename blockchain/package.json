@@ -1,7 +1,10 @@
 {
-  "name": "backend",
+  "name": "blockchain",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,10 +13,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "backend": "file:",
-    "cors": "^2.8.5",
-    "express": "^3.19.2",
-    "mysql": "^2.18.1",
+    "blockchain": "file:",
     "web3": "^4.12.1"
   }
 }
